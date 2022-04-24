@@ -1,5 +1,5 @@
 import React from "react";
-
+import logo from "./assets/images/favicon.ico";
 const Header = () => {
   return (
     <nav className="rounded shadow-sm border-b border-gray-700 px-8 py-4">
@@ -25,6 +25,7 @@ const Header = () => {
           </button>
         </li>
       </ul>
+      <img className="absolute left-4 top-4 w-8 h-8" src={logo} alt="logo" />
     </nav>
   );
 };
