@@ -6,15 +6,3 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
-@layer components {
-  .btn {
-    @apply w-64 font-OpenSansRegular text-sm font-semibold p-2 text-white border-none rounded;
-  }
-  .btn-dashbord {
-    @apply w-full font-OpenSansRegular font-semibold p-2 space-x-4 inline-flex items-center border-none outline-none rounded-md leading-4;
-  }
-  .square-dashbord {
-    @apply w-2 h-2 border rounded-sm border-transparent opacity-25;
-  }
-}
