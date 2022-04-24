@@ -3,7 +3,7 @@ import React from "react";
 const Bio = () => {
   return (
     <div className="w-1/2 font-OpenSansRegular">
-      <span className="text-green-300 font-bold text-lg leading-relaxed">
+      <span className="text-green-300 text-lg leading-relaxed">
         Hi, my name is
       </span>{" "}
       <br />
@@ -12,12 +12,13 @@ const Bio = () => {
       </span>
       <br />
       <br />
-      <span className="text-xl text-gray-300 font-bold">
-        I'm a software engineer intrested in architecture and devops practices.
+      <span className="text-xl font-semibold text-gray-300 leading-relaxed">
+        I'm a software engineer intrested in system architecture and devops
+        practices.
       </span>
       <br />
       <br />
-      <span className="flex-wrap text-lg text-gray-400 font-bold">
+      <span className="flex-wrap text-lg text-gray-400 leading-relaxed">
         Able to deliver decent work, Committed to learning and self-development
         and flexible to learn new technologies. Offering productive
         communication and good judgment.
