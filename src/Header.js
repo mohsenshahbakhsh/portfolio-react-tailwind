@@ -4,7 +4,10 @@ import logo from "./assets/images/favicon.ico";
 const Header = () => {
   return (
     <nav className="rounded shadow-sm border-b border-gray-700 px-8 py-4">
-      <ul id="nav" className="flex flex-row justify-end items-center space-x-8">
+      <ul
+        id="nav"
+        className="flex flex-row justify-end items-center space-x-8 text-white"
+      >
         <li>
           <a href="#About">About</a>
         </li>
