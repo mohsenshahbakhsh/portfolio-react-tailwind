@@ -2,6 +2,7 @@ import React from "react";
 import { useNavigate } from "react-router-dom";
 const Footer = () => {
   const navigate = useNavigate();
+  const [email, setEmail] = React.useState("mohsen.r.shahbakhsh@gmail.com");
   const [clip_copy, setCopy] = React.useState(false);
   return (
     <div className="w-full fixed bottom-0">
@@ -48,10 +49,10 @@ const Footer = () => {
         {/* email */}
         <div className="flex flex-col justify-center items-center">
           <a
-            href="mailto:mohsenshahbakhsh@gmail.com?Subject=Hello%20User"
+            href="mailto:mohsen.r.shahbakhsh@gmail.com?Subject=Hello%20User"
             className="text-sm text-green-400 origin-bot transform-gpu -translate-y-28 rotate-90"
           >
-            mohsenshahbakhsh@gmail.com
+            {email}
           </a>
           <div className="h-20 border-l border-green-500" />
         </div>

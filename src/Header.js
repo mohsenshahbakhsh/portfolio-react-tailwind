@@ -1,4 +1,5 @@
 import React from "react";
+import { HashLink as Link } from "react-router-hash-link";
 
 import logo from "./assets/images/favicon.ico";
 const Header = () => {
@@ -9,7 +10,7 @@ const Header = () => {
         className="flex flex-row justify-end items-center space-x-8 text-white"
       >
         <li>
-          <a href="#About">About</a>
+          <Link to="#About">About</Link>
         </li>
         <li>
           <a href="#Experience">Experience</a>
@@ -30,7 +31,7 @@ const Header = () => {
         className="absolute left-4 top-4 border-none"
         onClick={() => window.location.reload()}
       >
-        <img className="w-8 h-8" src={logo} alt="logo" />
+        {/* <img className="w-8 h-8" src={logo} alt="logo" /> */}
       </button>
     </nav>
   );
