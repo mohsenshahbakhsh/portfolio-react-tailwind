@@ -6,9 +6,9 @@ const Footer = () => {
   const [clip_copy, setCopy] = React.useState(false);
   return (
     <div className="w-full fixed bottom-0">
-      <div className="flex flex-row justify-between items-end">
+      <div className="flex flex-row justify-between items-end px-8">
         {/* social media*/}
-        <div className="px-16 flex flex-col justify-center items-center space-y-4">
+        <div className="flex flex-col justify-center items-center space-y-4">
           <a href="https://github.com/mohsenshahbakhsh">
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -47,7 +47,7 @@ const Footer = () => {
         </div>
 
         {/* email */}
-        <div className="flex flex-col justify-center items-center">
+        <div className="flex flex-col justify-center items-center transform-gpu translate-x-24">
           <a
             href="mailto:mohsen.r.shahbakhsh@gmail.com?Subject=Hello%20User"
             className="text-sm text-green-400 origin-bot transform-gpu -translate-y-28 rotate-90"
