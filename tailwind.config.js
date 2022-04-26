@@ -4,7 +4,11 @@ module.exports = {
     fontFamily: {
       OpenSansRegular: ["OpenSansRegular"],
     },
-    extend: {},
+    extend: {
+      screens: {
+        xsm: "280px",
+      },
+    },
   },
   variants: {
     extend: {

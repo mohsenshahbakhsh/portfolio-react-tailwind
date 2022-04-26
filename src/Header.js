@@ -4,7 +4,7 @@ import { HashLink as Link } from "react-router-hash-link";
 import logo from "./assets/images/favicon.ico";
 const Header = () => {
   return (
-    <nav className="rounded shadow-sm border-b border-gray-700 px-8 py-4">
+    <nav className="rounded shadow-sm border-b border-gray-700 px-8 py-4 flex justify-end">
       <ul
         id="nav"
         className="flex flex-row justify-end items-center space-x-8 text-white"
@@ -12,13 +12,13 @@ const Header = () => {
         <li>
           <Link to="#About">About</Link>
         </li>
-        <li>
+        <li className="sm:scale-75">
           <a href="#Experience">Experience</a>
         </li>
-        <li>
+        <li className="xsm:text-red-400">
           <a href="#Work">Work</a>
         </li>
-        <li>
+        <li className="xsm:text-red-300">
           <a href="#Contact">Contact</a>
         </li>
         <li>
