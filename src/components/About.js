@@ -17,28 +17,28 @@ const About = () => {
         <span className="flex-wrap leading-relaxed text-gray-400">
           Here are a few technologies i've been working recently:
         </span>
-        <div className="w-1/2 gap-2 grid grid-cols-2 grid-rows-4">
-          <div className="flex flex-row space-x-4">
+        <div className="md:w-1/2 gap-2 grid grid-cols-2 grid-rows-4 text-white">
+          <div className="w-full flex flex-row space-x-2">
             <span className="text-green-300">ᐅ</span>
             <span className="tracking-tight">Node.js</span>
           </div>
-          <div className="flex flex-row space-x-4">
+          <div className="w-full flex flex-row space-x-2">
             <span className="text-green-300">ᐅ</span>
             <span className="tracking-tight">JavaScript</span>
           </div>
-          <div className="flex flex-row space-x-4">
+          <div className="w-full flex flex-row space-x-2">
             <span className="text-green-300">ᐅ</span>
             <span className="tracking-tight">TypeScript</span>
           </div>
-          <div className="flex flex-row space-x-4">
+          <div className="flex flex-row space-x-2">
             <span className="text-green-300">ᐅ</span>
             <span className="tracking-tight">Python</span>
           </div>
-          <div className="flex flex-row space-x-4">
+          <div className="flex flex-row space-x-2">
             <span className="text-green-300">ᐅ</span>
             <span className="tracking-tight">NestJs</span>
           </div>
-          <div className="flex flex-row space-x-4">
+          <div className="flex flex-row space-x-2">
             <span className="text-green-300">ᐅ</span>
             <span className="tracking-tight">React</span>
           </div>
