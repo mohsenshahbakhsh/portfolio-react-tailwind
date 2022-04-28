@@ -7,16 +7,28 @@ const Header = () => {
     <nav className="bg-gray-800 sticky top-0 rounded shadow-sm border-b border-gray-700 px-8 py-4 flex justify-end">
       <ul className="hidden text-white md:inline-flex justify-end items-center space-x-8">
         <li>
-          <Link to="#About">About</Link>
+          <span className="text-green-300 text-sm font-semibold pr-2">01.</span>
+          <Link to="#About" className="hover:text-green-300 font-semibold">
+            About
+          </Link>
         </li>
         <li className="">
-          <a href="#Experience">Experience</a>
+          <span className="text-green-300 text-sm font-semibold pr-2">02.</span>
+          <Link to="#Experience" className="hover:text-green-300 font-semibold">
+            Experience
+          </Link>
         </li>
         <li className="">
-          <a href="#Work">Work</a>
+          <span className="text-green-300 text-sm font-semibold pr-2">03.</span>
+          <Link to="#Work" className="hover:text-green-300 font-semibold">
+            Work
+          </Link>
         </li>
         <li className="">
-          <a href="#Contact">Contact</a>
+          <span className="text-green-300 text-sm pr-2 font-semibold">04.</span>
+          <Link to="#Contact" className="hover:text-green-300 font-semibold">
+            Contact
+          </Link>
         </li>
         <li>
           <button className="bg-transparent border rounded border-green-400 px-4 py-2 text-green-400 text-sm tracking-tight">
@@ -53,7 +65,6 @@ const Header = () => {
           {" "}
           <ul className="flex flex-col space-y-2 text-white">
             <li
-              className="focus:text-green-400"
               onClick={() => {
                 const menu = document.getElementById("mobile-menu");
                 const nav = document.getElementById("nav");
@@ -61,10 +72,14 @@ const Header = () => {
                 nav.classList.toggle("w-full");
               }}
             >
-              <Link to="#About">About</Link>
+              <span className="text-green-300 text-sm pr-2 font-semibold">
+                01.
+              </span>
+              <Link to="#About" className="hover:text-green-300 font-semibold">
+                About
+              </Link>
             </li>
             <li
-              className="focus:text-green-400"
               onClick={() => {
                 const menu = document.getElementById("mobile-menu");
                 const nav = document.getElementById("nav");
@@ -72,10 +87,17 @@ const Header = () => {
                 nav.classList.toggle("w-full");
               }}
             >
-              <Link to="#Experience">Experience</Link>
+              <span className="text-green-300 text-sm pr-2 font-semibold">
+                02.
+              </span>
+              <Link
+                to="#Experience"
+                className="hover:text-green-300 font-semibold"
+              >
+                Experience
+              </Link>
             </li>
             <li
-              className="focus:text-green-400"
               onClick={() => {
                 const menu = document.getElementById("mobile-menu");
                 const nav = document.getElementById("nav");
@@ -83,10 +105,14 @@ const Header = () => {
                 nav.classList.toggle("w-full");
               }}
             >
-              <Link to="#Work">Work</Link>
+              <span className="text-green-300 text-sm pr-2 font-semibold">
+                03.
+              </span>
+              <Link to="#Work" className="hover:text-green-300 font-semibold">
+                Work
+              </Link>
             </li>
             <li
-              className="focus:text-green-400"
               onClick={() => {
                 const menu = document.getElementById("mobile-menu");
                 const nav = document.getElementById("nav");
@@ -94,7 +120,15 @@ const Header = () => {
                 nav.classList.toggle("w-full");
               }}
             >
-              <Link to="#Contact">Contact</Link>
+              <span className="text-green-300 text-sm pr-2 font-semibold">
+                04.
+              </span>
+              <Link
+                to="#Contact"
+                className="hover:text-green-300 font-semibold"
+              >
+                Contact
+              </Link>
             </li>
             <li>
               <button className="bg-transparent border rounded border-green-400 px-4 py-2 text-green-400 text-sm tracking-tight">
