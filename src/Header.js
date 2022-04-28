@@ -1,7 +1,6 @@
 import React from "react";
 import { HashLink as Link } from "react-router-hash-link";
 
-import logo from "./assets/images/logo.png";
 const Header = () => {
   return (
     <nav className="bg-gray-800 sticky top-0 rounded shadow-sm border-b border-gray-700 px-8 py-4 flex justify-end">
