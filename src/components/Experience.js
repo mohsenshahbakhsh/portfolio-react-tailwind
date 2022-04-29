@@ -17,6 +17,7 @@ const Experience = () => {
                 if (!e.currentTarget.classList.contains("border")) {
                   e.currentTarget.classList.toggle("border");
                   e.currentTarget.classList.toggle("border-green-500");
+                  e.currentTarget.classList.toggle("text-white");
                   e.currentTarget.classList.toggle("text-green-300");
                   const ul = document.getElementById("ul_full");
                   ul.classList.toggle("flex");
@@ -32,7 +33,7 @@ const Experience = () => {
                   ul.classList.toggle("hidden");
                 }
               }}
-              className="w-28 inline-block py-2.5 px-4 text-sm font-semibold hover:bg-gray-900 rounded text-left border border-green-500 text-green-300"
+              className="w-28 inline-block py-2.5 px-4 font-semibold hover:bg-gray-900 rounded text-left border border-green-500 text-green-300"
             >
               Full-Stack
             </button>
@@ -60,7 +61,7 @@ const Experience = () => {
                   ul.classList.toggle("hidden");
                 }
               }}
-              className="w-28 inline-block py-2.5 px-4 text-sm font-semibold text-white hover:bg-gray-900 rounded text-left"
+              className="w-28 inline-block py-2.5 px-4 font-semibold text-white hover:bg-gray-900 rounded text-left"
             >
               DevOps
             </button>

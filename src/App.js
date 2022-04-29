@@ -78,7 +78,7 @@ function App() {
       <div className="flex pb-8 justify-center items-center">
         <a
           href="https://github.com/mohsenshahbakhsh/portfolio"
-          className="text-xs font-semibold text-gray-300 hover:text-green-300"
+          className="text-sm font-semibold text-gray-400 hover:text-green-300"
         >
           built by mohsen shahbakhsh
         </a>
