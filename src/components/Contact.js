@@ -7,7 +7,7 @@ const Contacts = () => {
         <span className="text-green-300 text-xl font-semibold">03.</span>
         <span className="font-bold text-2xl text-white">Get In Touch</span>
       </div>
-      <div className="w-1/2 flex flex-col items-start space-y-4">
+      <div className="flex flex-col items-start space-y-4">
         <span className="flex-wrap leading-relaxed text-gray-500">
           Whether you have a question or just want to say hi, I'll try my best
           to get back to you!
