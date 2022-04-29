@@ -26,7 +26,7 @@ function App() {
         <div className="flex flex-col justify-center items-center transform-gpu translate-x-24">
           <a
             href="mailto:mohsen.r.shahbakhsh@gmail.com?Subject=Hello%20User"
-            className="text-sm text-green-400 origin-bot transform-gpu -translate-y-28 rotate-90"
+            className="text-sm text-white hover:text-green-400 origin-bot transform-gpu -translate-y-28 rotate-90"
           >
             {email}
           </a>
