@@ -29,6 +29,7 @@ module.exports = {
         "hover",
       ],
       opacity: ["active", "group-focus", "group-hover", "focus", "hover"],
+      shadow: ["active", "group-focus", "group-hover", "focus", "hover"],
       fontSize: ["focus", "group-focus", "group-hover", "hover"],
       fill: ["focus", "group-hover", "group-focus", "hover"],
       stroke: ["focus", "group-hover", "group-focus", "hover"],
