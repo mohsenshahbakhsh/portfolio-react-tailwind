@@ -1,11 +1,10 @@
 import React from "react";
 import { useNavigate } from "react-router-dom";
-import { HashLink as Link } from "react-router-hash-link";
+import Navbar from "./components/Navbar";
 import About from "./components/About";
 import Bio from "./components/Bio";
 import Experience from "./components/Experience";
-
-import Navbar from "./Navbar";
+import Contact from "./components/Contact";
 
 function App() {
   const navigate = useNavigate();
@@ -19,6 +18,7 @@ function App() {
         <Bio />
         <About />
         <Experience />
+        <Contact />
       </div>
       {/* footer */}
       {/* email */}
@@ -72,6 +72,16 @@ function App() {
           </a>
           <div className="h-20 border-l border-green-500" />
         </div>
+      </div>
+
+      {/* created by */}
+      <div className="flex pb-8 justify-center items-center">
+        <a
+          href="https://github.com/mohsenshahbakhsh/portfolio"
+          className="text-xs font-semibold text-gray-300 hover:text-green-300"
+        >
+          built by mohsen shahbakhsh
+        </a>
       </div>
     </div>
   );

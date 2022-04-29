@@ -1,13 +1,13 @@
 import React from "react";
 const Experience = () => {
   return (
-    <div className="w-1/2 m-auto space-y-12" id="Experience">
+    <div className="w-1/2 m-auto space-y-8" id="Experience">
       <div className="space-x-4">
         <span className="text-green-300 text-xl font-semibold">02.</span>
-        <span className="font-bold text-3xl text-white">Experience</span>
+        <span className="font-bold text-2xl text-white">Experience</span>
       </div>
       {/* experience */}
-      <div className="flex flex-col space-y-8 md:flex-row md:space-x-32">
+      <div className="flex flex-col md:flex-row md:space-x-32">
         {/* positions */}
         <ul className="flex flex-wrap flex-col space-y-2">
           <li className="mr-2">

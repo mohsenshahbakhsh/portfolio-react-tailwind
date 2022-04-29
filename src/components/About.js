@@ -3,10 +3,10 @@ import profile from "../assets/images/profile.png";
 
 const About = () => {
   return (
-    <div className="w-1/2 m-auto space-y-12" id="About">
+    <div className="w-1/2 m-auto space-y-8" id="About">
       <div className="space-x-4">
         <span className="text-green-300 text-xl font-semibold">01.</span>
-        <span className="font-bold text-3xl text-white">About Me</span>
+        <span className="font-bold text-2xl text-white">About Me</span>
       </div>
       {/* about me */}
       <div className="flex flex-col md:flex-row">
