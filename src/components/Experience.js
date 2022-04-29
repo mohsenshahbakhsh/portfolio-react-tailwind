@@ -7,7 +7,7 @@ const Experience = () => {
         <span className="font-bold text-3xl text-white">Experience</span>
       </div>
       {/* experience */}
-      <div className="flex flex-row space-x-32">
+      <div className="flex flex-col space-y-8 md:flex-row md:space-x-32">
         {/* positions */}
         <ul className="flex flex-wrap flex-col space-y-2">
           <li className="mr-2">
