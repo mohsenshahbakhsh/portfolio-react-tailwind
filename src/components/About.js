@@ -10,12 +10,12 @@ const About = () => {
       </div>
       {/* about me */}
       <div className="flex flex-col md:flex-row">
-        <div>
+        <div className="w-full">
           <div className="flex-wrap leading-relaxed w-3/4 text-gray-400">
-            Hello! My name is Mohsen and I enjoy creating things that live on
-            the internet. Able to deliver decent work, Committed to learning and
-            self-development and flexible to learn new technologies. Offering
-            productive communication and good judgment.
+            Hello! My name is Mohsen and i'm intrested in web development. My
+            primary focus is Back-End, Occasionally I build things with react.
+            I'm Curious, Have a spirit of learning and responsibility, And like
+            experimenting with new technologies and techniques.
           </div>
           <br />
           {/* technologies */}
@@ -52,7 +52,7 @@ const About = () => {
           </div>
         </div>
         <img
-          className="w-64 h-32 md:w-full md:h-64 rounded opacity-50 hover:opacity-90"
+          className="w-64 h-32 md:w-1/2 md:h-64 rounded opacity-50 hover:opacity-90"
           src={profile}
           alt="profile_img"
         />
