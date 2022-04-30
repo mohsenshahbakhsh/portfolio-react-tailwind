@@ -69,75 +69,65 @@ const Experience = () => {
         </ul>
         <ul
           id="ul_full"
-          className="flex flex-col space-y-2.5 text-gray-400 leading-relaxed"
+          className="flex flex-col space-y-2.5 text-gray-400 leading-relaxed font-semibold"
         >
           <li className="w-full flex flex-row space-x-4 items-center">
             <span className="text-sm text-green-300">ᐅ</span>
             <span className="tracking-tight">
-              Developed and implemented RESTful web services
+              Design and implemented RESTful web services based on microservices
+              architecture.
             </span>
           </li>
           <li className="w-full flex flex-row items-center space-x-4">
             <span className="text-sm text-green-300">ᐅ</span>
             <span className="tracking-tight">
-              Built applications based on microservices architecture
+              Troubleshoot and fix the bugs to ensure highest level of quality.
             </span>
           </li>
           <li className="w-full flex flex-row items-center space-x-4">
             <span className="text-sm text-green-300">ᐅ</span>
             <span className="tracking-tight">
-              Re-engineered design of different modules
+              Provided prompt solutions for subtle issues in components design.
             </span>
           </li>
           <li className="w-full flex flex-row space-x-4 items-center">
             <span className="text-sm text-green-300">ᐅ</span>
             <span className="tracking-tight">
               {" "}
-              manipulate dynamic data structures
+              Incorporated in-memory database to store and organize dynamic data
+              structures.
             </span>
           </li>
           <li className="w-full flex flex-row items-center space-x-4">
             <span className="text-sm text-green-300">ᐅ</span>
             <span className="tracking-tight">
-              Scheduled multiple cron jobs and handled their interactions with
-              one another
+              Scheduled cron-jobs to complete repetitive tasks automatically.
             </span>
           </li>
         </ul>
         <ul
           id="ul_dev"
-          className="hidden flex-col space-y-2.5 text-gray-400 leading-relaxed"
+          className="hidden flex-col space-y-2.5 text-gray-400 leading-relaxed font-semibold"
         >
           <li className="w-full flex flex-row space-x-4 items-center">
             <span className="text-sm text-green-300">ᐅ</span>
             <span className="tracking-tight">
-              Developed and implemented RESTful web services
+              Configured a nginx reverse proxy to forward requests to back-end
+              servers.
             </span>
           </li>
           <li className="w-full flex flex-row items-center space-x-4">
             <span className="text-sm text-green-300">ᐅ</span>
             <span className="tracking-tight">
-              Built applications based on microservices architecture
+              Setup a monitoring system to trace requests and record real-time
+              metrics to facilitate troubleshooting.
             </span>
           </li>
           <li className="w-full flex flex-row items-center space-x-4">
             <span className="text-sm text-green-300">ᐅ</span>
             <span className="tracking-tight">
-              Re-engineered design of different modules
-            </span>
-          </li>
-          <li className="w-full flex flex-row space-x-4 items-center">
-            <span className="text-sm text-green-300">ᐅ</span>
-            <span className="tracking-tight">
-              {" "}
-              manipulate dynamic data structures
-            </span>
-          </li>
-          <li className="w-full flex flex-row items-center space-x-4">
-            <span className="text-sm text-green-300">ᐅ</span>
-            <span className="tracking-tight">
-              Scheduled multiple cron jobs and handled their interactions with
-              one another
+              Utilized jenkins server to build a pipeline and automate the
+              delivery phase.
             </span>
           </li>
         </ul>
