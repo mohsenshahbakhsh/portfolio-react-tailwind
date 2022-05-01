@@ -87,7 +87,8 @@ const Experience = () => {
           <li className="w-full flex flex-row items-center space-x-4">
             <span className="text-sm text-green-300">ᐅ</span>
             <span className="tracking-tight">
-              Provided prompt solutions for subtle issues in components design.
+              Provided prompt solutions for subtle issues in inter-service
+              communication.
             </span>
           </li>
           <li className="w-full flex flex-row space-x-4 items-center">
