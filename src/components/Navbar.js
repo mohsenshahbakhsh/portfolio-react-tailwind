@@ -136,7 +136,12 @@ const Navbar = () => {
               </Link>
             </li>
             <li>
-              <button className="bg-transparent border rounded border-green-400 px-4 py-2 text-green-400 text-sm tracking-tight">
+              <button
+                onClick={() => {
+                  window.open("resume.pdf", "_blank");
+                }}
+                className="bg-transparent border rounded border-green-400 px-4 py-2 text-green-400 text-sm tracking-tight"
+              >
                 Resume
               </button>
             </li>
