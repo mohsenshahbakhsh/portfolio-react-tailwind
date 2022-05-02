@@ -15,7 +15,7 @@ const About = () => {
             Hello! My name is Mohsen and I'm intrested in web development. My
             primary focus is Back-End, Occasionally I build things with react.
             I'm Curious, Have a spirit of learning and responsibility, And like
-            experimenting with new technologies and techniques.
+            to experiment with new technologies and techniques.
           </div>
           <br />
           {/* technologies */}
