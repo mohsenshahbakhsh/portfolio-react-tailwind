@@ -127,8 +127,8 @@ const Experience = () => {
           <li className="w-full flex flex-row items-center space-x-4">
             <span className="text-sm text-green-300">ᐅ</span>
             <span className="tracking-tight">
-              Utilized jenkins server to build a pipeline and automate the
-              delivery phase.
+              Utilized jenkins and docker to build a delivery pipeline and
+              automate the deploy phase.
             </span>
           </li>
         </ul>

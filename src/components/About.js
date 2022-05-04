@@ -12,10 +12,10 @@ const About = () => {
       <div className="flex flex-col md:flex-row">
         <div className="w-full">
           <div className="flex-wrap leading-relaxed w-3/4 text-gray-400 font-semibold">
-            Hello! My name is Mohsen and I'm intrested in web development. My
-            primary focus is Back-End, Occasionally I build things with react.
-            I'm Curious, Have a spirit of learning and responsibility, And like
-            to experiment with new technologies and techniques.
+            Hello! My name is Mohsen, I'm a Full-Stack developer with 4 years of
+            experience In SaaS development. I'm Curious, Have a spirit of
+            learning and responsibility, And like to experiment with new
+            technologies.
           </div>
           <br />
           {/* technologies */}
@@ -47,6 +47,16 @@ const About = () => {
               <div className="flex flex-row items-center space-x-2">
                 <span className="text-sm text-green-300 font-semibold">ᐅ</span>
                 <span className="tracking-tight font-semibold">React</span>
+              </div>
+              <div className="flex flex-row items-center space-x-2">
+                <span className="text-sm text-green-300 font-semibold">ᐅ</span>
+                <span className="tracking-tight font-semibold">Docker</span>
+              </div>
+              <div className="flex flex-row items-center space-x-2">
+                <span className="text-sm text-green-300 font-semibold">ᐅ</span>
+                <span className="tracking-tight font-semibold">
+                  SQL(postgresql), MongoDB
+                </span>
               </div>
             </div>
           </div>
