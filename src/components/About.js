@@ -12,10 +12,8 @@ const About = () => {
       <div className="flex flex-col md:flex-row">
         <div className="w-full">
           <div className="flex-wrap leading-relaxed w-3/4 text-gray-400 font-semibold">
-            Hello! My name is Mohsen, I'm a Full-Stack developer with 4 years of
-            experience In SaaS development. I'm Curious, Have a spirit of
-            learning and responsibility, And like to experiment with new
-            technologies.
+            Hello! My name is Mohsen, I'm a software developer specializing in web development.
+            I'm enthusiastic, compassionate, spiritual, And like to swim, read and meditate.
           </div>
           <br />
           {/* technologies */}

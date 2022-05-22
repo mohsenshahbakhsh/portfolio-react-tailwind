@@ -13,8 +13,8 @@ const Bio = () => {
       <br />
       <br />
       <div className="w-3/4 text-xl font-semibold text-gray-300 leading-relaxed">
-        I'm a software engineer specializing in SaaS development, Intrested in
-        system architecture and devops practices.
+        I'm a software engineer specializing in web development, Intrested in
+        system architecture.
       </div>
     </div>
   );
